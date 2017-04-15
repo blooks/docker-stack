@@ -7,7 +7,7 @@ services:
       - 'MONGO_URL=mongodb://mongo/blooks'
       - 'REDIS_URL=redis://redis'
       - 'ROOT_URL=http://localhost:3000'
-    image: 'blooks/dashboard:v0.1.5'
+    image: 'blooks/dashboard:v0.1.6'
     depends_on:
       - mongo
       - redis
